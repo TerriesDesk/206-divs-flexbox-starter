@@ -106,9 +106,24 @@ body {
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
-  background:tomato;
+  background:#000000;
 }
 
+header h1 {
+  font-family: 'Lora', serif;
+  font-size: 2.4em;
+  color: #ffffff;
+}
+
+#top {
+  width: 85%;
+  margin: 0 auto;
+}
+
+#top h3 {
+  font-family: 'Source Sans Pro', serif;
+  color:#ffffff;
+}
 .wrapper {
   display: flex;
   justify-content: space-between;
@@ -124,7 +139,7 @@ body {
   justify-content: center;
   align-items: flex-start;
   color: #ffffff;
-  background-color: tomato;
+  background-color: #000000;
   line-height: 1.5em;
   font-size: 1.2em;
   height: 300px;
@@ -137,10 +152,22 @@ body {
   border-left: 1px solid gray;
 }
 
-div i {
-  color: black;
+div span {
+  font-family: 'Lora', serif;
+  font-weight: bold;
+}
+
+footer ul li {
+  display: inline-block;
+}
+
+footer ul li a {
+  padding-right: 60px;
+  color: #ffffff;
   font-size:1.5em;
 }
+
+
 
 /* ==========================================================================
    Helper classes
